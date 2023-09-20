@@ -1,0 +1,77 @@
+#main{
+            margin: auto;
+            padding: 0%;
+            
+            
+        }
+        .header{
+            justify-content: space-between;
+        }
+        .top{
+            border: 2px white;
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 350px;
+            flex-wrap: wrap;
+        }
+        .header #list ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            border: 2px orange;
+            height: 50px;
+            background-color: orange;
+            align-items: center;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .middlebox{
+            border: 2px;
+            width: 1170;
+            height:438;
+            background-color: lightgrey;
+            margin-left: 50px;
+            margin-right: 50px;
+            justify-content: space-around;
+            display: flex;
+            
+        }
+        
+        .middlebox .para2{
+            border: 2px;
+            width: 262.5px;
+            height: 380px;
+            margin: 10px;
+            background-color: white;
+            align-items: center;
+            justify-items: center;
+        }
+        
+        
+        .list2 ul li{
+            list-style: none;
+            color: blue;
+            font-family: cursive;
+            
+        }
+        .counter{
+            border: 2px;
+            width: 500px;
+            height: 500px;
+            align-items: center;
+        }
+    .navbar{
+        background-color: #FAACA8;
+        background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+
+    }
+    footer{
+        background-color: #FAACA8;
+        background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+
+        text-align: center;
+        /* background-color: #FAD961; */
+        /* background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%); */
+    
+    }
